@@ -164,7 +164,9 @@ Demo Video: Add your video link here
 ## Author
 
 Name: Abdinasir Osman Warsame
+
 Role: CodeAlpha Artificial Intelligence Intern
+
 GitHub: abdinasir600s-a11y
 
 ## CodeAlpha Acknowledgement
