@@ -1,5 +1,5 @@
-import json
 import html
+import json
 
 import streamlit as st
 import streamlit.components.v1 as components
@@ -54,12 +54,6 @@ def apply_page_styles():
             textarea::placeholder,
             input::placeholder {
                 color: rgba(128, 128, 128, 0.85);
-            }
-
-            [data-testid="stCodeBlock"] {
-                background: var(--background-color);
-                border: 1px solid rgba(128, 128, 128, 0.25);
-                border-radius: 10px;
             }
 
             .translated-box {
@@ -194,9 +188,7 @@ def render_copy_button(translated_text):
                 border-color: #1D4ED8;
             }}
         </style>
-        <button
-            id="copyButton"
-        >
+        <button id="copyButton">
             Copy Translated Text
         </button>
         <p id="copyMessage"></p>
@@ -211,7 +203,7 @@ def render_copy_button(translated_text):
                     await navigator.clipboard.writeText(textToCopy);
                     message.innerText = "Translated text copied.";
                 }} catch (error) {{
-                    message.innerText = "Copy failed. Please select the text box and copy manually.";
+                    message.innerText = "Copy failed. Please select the text and copy manually.";
                 }}
             }});
         </script>

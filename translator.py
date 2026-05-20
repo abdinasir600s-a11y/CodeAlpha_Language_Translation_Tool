@@ -3,7 +3,7 @@ from deep_translator import GoogleTranslator
 
 # Language names are shown in the app.
 # Language codes are used by deep-translator.
-# Auto Detect is used only for the source language.
+# Auto Detect is used only in the source language dropdown.
 LANGUAGES = {
     "Auto Detect": "auto",
     "English": "en",
